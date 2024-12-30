@@ -6,21 +6,4 @@ print(op)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #print(input().replace('6','9',1))
