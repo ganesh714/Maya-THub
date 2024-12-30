@@ -1,0 +1,18 @@
+# Input: Read the integer N
+N = int(input())
+
+# Initialize sum and product of digits
+digit_sum = 0
+digit_product = 1
+
+# Convert the number to a string to easily access each digit
+for digit in str(N):
+    digit = int(digit)  # Convert character back to integer
+    digit_sum += digit  # Add digit to sum
+    digit_product *= digit  # Multiply digit to product
+
+# Check if sum equals product
+if digit_sum == digit_product:
+    print("Spy Number")
+else:
+    print("Not Spy Number")
