@@ -9,5 +9,5 @@ a = int(input())
 b = int(input()) 
 
 for i in range(a,b+1):
-    if is_SDN(i) == True:
-        print(i) 
+    if is_SDN(i):
+        print(i,end=" ") 
