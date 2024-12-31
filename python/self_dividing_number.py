@@ -1,7 +1,7 @@
 def is_SDN(n):
     for digit in str(n):
         dig = int(digit)
-        if dig != 0 and n%dig != 0 :
+        if dig == 0 or n%dig != 0 :
             return False
     return True
 
