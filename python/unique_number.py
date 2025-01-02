@@ -1,10 +1,11 @@
 def isUN(n):
-    str = "1234567890"
-    for i in range(0,len(n)):
-        if n[i] not in str:
+    seen = set()
+    while n > 0:
+        digit = n % 10
+        if digit in seen:
             return False
-        else:
-            str = str[:i] + 'a' + str[i+1:]
+        seen.add(digit)
+        n //= 10
     return True
 
-print("Unique Number") if isUN(input()) else print("Not Unique Number")
+print("Unique Number") if isUN(int(input())) else print("Not Unique Number")
