@@ -4,4 +4,4 @@ def isPN(n):
             return True
     return False
 
-print("YES") if isPN(int(input())) else print("False")
+print("YES") if isPN(int(input())) else print("NO")
