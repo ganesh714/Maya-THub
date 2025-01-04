@@ -1,13 +1,12 @@
-import java.until.Scanner;
-public class loss_percentage{
+import java.util.Scanner;
+public class Loss_percentage{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        int cp = Scanner.nextInt();
-        int sp = Scanner.nextInt();
+        int cp = scanner.nextInt();
+        int sp = scanner.nextInt();
         int loss = cp - sp ;
-        double lp = 
+        double lp = (loss * 100 ) / ( cp + 0.00 );
 
-        c = x * 2*(m+n);
-        System.out.println(c);
+        System.out.printf("%.2f",lp);
     }
 }
