@@ -1,17 +1,17 @@
 #include<stdio.h>
 
 int main(){
-    float n;
-    scanf("%f",&n);
+    float h;
+    scanf("%f",&h);
 
     if(h<150)
-        printf("Person is Dwarf");
+        printf("Person is Dwarf.");
     else if(h<165)
-        printf("Person is average heighted");
+        printf("Person is average heighted.");
     else if(h<195)
-        printf("Person is taller");
+        printf("Person is taller.");
     else
-        printf("Abnormal height");
+        printf("Abnormal height.");
 
     return 0;
 }
