@@ -1,6 +1,0 @@
-# Input: P, T, R 
-P, T, R = map(int, input().split()) 
-# Calculate the simple interest using the formula 
-SI = (P * T * R) / 100 
-# Output: Print the simple interest 
-print(int(SI)) 
