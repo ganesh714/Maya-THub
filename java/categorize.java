@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class CF{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int count = 0;
         float h = scanner.nextFloat();
         if (h < 150) {
             System.out.println("Person is Dwarf.");
