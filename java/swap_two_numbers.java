@@ -9,7 +9,7 @@ public class CF{
         a = a+b;
         b = a - b;
         a = a - b;
-        System.out.println(a + " " +  b);
+        System.out.println(a + "\n" +  b);
     }
 }
 
