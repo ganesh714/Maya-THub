@@ -10,3 +10,6 @@ int main(){
         printf("YES");
         
 }
+
+
+// --> https://maya.technicalhub.io/owl-program-details/66863c45f56afec5c0c8fab4
